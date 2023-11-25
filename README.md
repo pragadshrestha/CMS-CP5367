@@ -40,6 +40,9 @@ This project is licensed under the JCUB subject CMS CP5637
 ## Acknowledgments
 
 - The Site Consulting Team
+- Pragadh Shrestha
+- Kiranjit Kaur
+- JashanPreet
 
 
 ## Contact
