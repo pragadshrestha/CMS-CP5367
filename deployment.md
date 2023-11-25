@@ -80,9 +80,9 @@ This document outlines the comprehensive workflow for developing, testing, and d
 
 ### Testing Responsibilities:
 
-- **Theme Developer & Tester:** Pragad
+- **Theme Developer & Tester:** Pragadh Shrestha
 - **Web Pages & Content Tester:** Kiranjit Kaur
-- **Contact Form & Site Map Tester:** Jashan
+- **Contact Form & Site Map Tester:** JashanPreet
 
 ---
 
