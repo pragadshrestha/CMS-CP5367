@@ -1,0 +1,190 @@
+/*
+Theme Name: jcub
+Theme URI: https://jcubweb.com/jcub-wordpress-theme/
+Author: Pragadh
+Author URI: https://jcubweb.com
+Description: jcub is a responsive, multi-purpose WordPress theme. It’s flexible and suitable for agencies, blogs, businesses, finance, accounting, consulting, corporations, or portfolios. Customization is easy and straight-forward, with options provided that allow you to setup your site to perfectly fit your desired online presence. For more details, visit this link https://wordpress.org/themes/quality/. We hope you will find the jcub theme useful.
+Template: quality
+Tags: one-column, two-columns, right-sidebar, custom-menu, featured-images, footer-widgets, sticky-post, threaded-comments, translation-ready, blog
+Version: 1.4
+Requires at least: 4.7
+Tested up to: 6.1
+Requires PHP: 5.4
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: jcub
+*/
+
+/*sticky post background*/
+.post.sticky .post-content{
+    background-color: #e0e6f1;
+}
+
+/*HEADER PRESET VARIATION*/
+
+/* navbar 1 */
+.navbar-custom.navbar1 {
+    background-color: rgb(0, 0, 0,0.5) !important;
+    width: 100%;
+    position: absolute;
+}
+.navbar-custom.navbar1 .navbar-nav li > a {
+    color: #ffffff;
+}
+.navbar-custom.navbar1 .dropdown-menu > li > a {color: #bbb}
+
+.navbar1 .search-box-outer a {
+    color: #ffffff;
+}
+.navbar1 .cart-header {background-color: #ffffff;}
+.navbar1 .cart-header > a.cart-icon {color: #000}
+
+.navbar-custom.navbar1 .navbar-toggle .icon-bar {
+    background: #ffffff;
+}
+
+.header-variation-2 {
+    background-color: rgb(0, 0, 0,0.5) !important;
+    width: 100%;
+    position: absolute;
+}
+.header-variation-2 .site-title h2 a{
+    color: #fff;
+}
+.site-title h2 a{
+    color: #121213;
+}
+.header-variation-2 .search-box-outer a {
+    color: #ffffff;
+}
+.stickymenu1{
+ display: none;
+ position: fixed !important;
+ width: 100%;
+ box-shadow: 0 1px 3px rgba(255,255,255,0.1);
+ z-index: 999;
+ background-color: rgb(255, 255, 255,0.9) !important;
+ transition: 0.3s;
+}
+@media (max-width: 600px) {
+  .stickymenu1 {
+    top: 0;
+  }
+}
+.navbar-custom.header-variation-2 {
+    background-color: rgba(0, 0, 0,0.5) !important;
+    width: 100%;
+    position: absolute;
+}
+.header-variation-2 .cart-header {
+    background-color: #ffffff;
+}
+.header-variation-2 .cart-header > a.cart-icon {
+    color: #000;
+}
+.navbar-custom .navbar-nav > li.active > a,
+.navbar-custom .navbar-nav > li.active > a:hover,
+.navbar-custom .navbar-nav > li.active > a:focus {
+	color: #395ca3;
+}
+
+.navbar1 .quality_title_head,.navbar1 .site-description{
+    color: #fff;
+    display: inline-block;
+}
+
+/*===================================================================================*/
+/*	Service Two
+/*===================================================================================*/
+.service.service-two .post::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    transition: .5s;
+    z-index: 0;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    opacity: 1;
+    border: none;
+}
+.service.service-two .entry-header .entry-title:after {
+    margin: 0.8rem 0rem;
+}
+.service.service.service-two .post:hover {
+    -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #ffffff;
+}
+.service.service-two .post:hover .post-thumbnail i {
+    color: #ffffff;
+}
+.service.service-two .post:hover .entry-header .entry-title:after {
+    background-color: #ffffff;
+}
+.service.service-two .post:hover .entry-header .entry-title {color: #ffffff;}
+.service.service-two .post:hover::before {
+    width: 100%;
+    border-radius: 0;
+    z-index: -1;
+}
+/*.service-two .post:before {
+    border-left-color: none;
+    border-right-color: none;
+}*/
+.service.service-two .post:before , .service.service-two .post:after {
+    border:none;
+}
+.wp-block-image img{
+    width: 100%;
+}
+#blog-masonry .col-lg-3 .wp-block-audio audio {
+    min-width: 230px;
+}
+.service.service-two .post {
+    text-align: unset;
+}
+.service.service-two .post:hover .entry-header .entry-title a{
+color:#ffffff;
+}
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    word-wrap: normal !important;
+}
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000; /* Above WP toolbar. */
+}
+.no-js .some-element .screen-reader-text {
+    position: static;
+    -webkit-clip-path: none;
+    clip-path: none;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
