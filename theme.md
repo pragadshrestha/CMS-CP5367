@@ -6,7 +6,7 @@ Welcome to the documentation for the jcub WordPress theme. This guide provides d
 
 ## Theme Overview
 
-**jcub** is a clean and minimalist WordPress theme designed to provide an elegant and user-friendly experience. With a focus on responsiveness and customization, jcub aims to meet the needs of [briefly describe the theme's target audience or purpose].
+**jcub** is a clean and minimalist WordPress theme designed to provide an elegant and user-friendly experience. With a focus on responsiveness and customization, jcub aims to meet the needs of new wordpress user .
 
 ## Features
 
