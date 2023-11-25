@@ -66,7 +66,7 @@ Detail any plugins that are crucial for the site's functionality.
 - **Updating WordPress, Themes, and Plugins:**
   - Best practices for keeping the site updated.
 - **Backups:**
-  - How to perform and schedule backups.
+  - How to perform and schedule backups within the site.
 
 ## Getting Help
 
